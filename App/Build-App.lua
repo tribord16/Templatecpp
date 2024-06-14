@@ -12,7 +12,8 @@ project "App"
       "Source",
 
 	  -- Include Core
-	  "../Core/Include"
+	  "../Core/Include",
+      "../Lib/SQLiteCpp"
    }
 
    links

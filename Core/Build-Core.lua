@@ -9,7 +9,8 @@ project "Core"
 
    includedirs
    {
-      "Include"
+      "Include",
+      "../Lib/SQLiteCpp/include"
    }
 
    targetdir ("../Binaries/" .. OutputDir .. "/%{prj.name}")
